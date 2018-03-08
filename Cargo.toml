@@ -1,0 +1,11 @@
+[package]
+name = "kubealyze"
+version = "0.1.0"
+authors = ["Sebastian Thiel <sthiel@thoughtworks.com>"]
+
+[[bin]]
+path = "src/main.rs"
+name = "kan"
+
+
+[dependencies]

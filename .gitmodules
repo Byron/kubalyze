@@ -1,0 +1,3 @@
+[submodule "lib/ext/k8s-openapi-codegen"]
+	path = lib/ext/k8s-openapi-codegen
+	url = https://github.com/Arnavion/k8s-openapi-codegen
