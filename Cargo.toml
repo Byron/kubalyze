@@ -7,5 +7,15 @@ authors = ["Sebastian Thiel <sthiel@thoughtworks.com>"]
 path = "src/main.rs"
 name = "kan"
 
-
 [dependencies]
+serde_json = "1.0.10"
+serde = "1.0.27"
+clap = "2.31.1"
+failure = "0.1.1"
+
+[dependencies.k8s-openapi]
+path = "lib/kube-types"
+version = "1.0"
+
+[workspace]
+exclude = ["lib/ext/k8s-openapi-codegen"]
